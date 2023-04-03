@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #e1e3ff
+}
+
+.container {
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+margin: 0;
+padding: 0;
+width: 450px;
+height: 900px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+.child1 {
+background-color: rgb(44, 69, 255);
+height: 350px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+.rslt {
+display: flex;
+justify-content: center;
+color: rgb(211, 211, 211);
+margin-top: 25px;
+}
+
+.nmbr76 {
+color: white;
+font-size: 60px;
+font-weight: bold;
+opacity: 90%;
+
+}
+
+.nmbr100 {
+display: flex;
+color: rgb(200, 200, 200);
+font-weight: bold;
+opacity: 45%;
+}
+.child2 {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+margin: 0 auto;
+margin-top: 30px;
+border-radius: 50%;
+background-color: white;
+width: 150px;
+height: 150px;
+background-color: rgb(31, 44, 146);
+box-shadow: 0px 0px 50px;
+}
+
+.great {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+color: rgb(255, 255, 255);
+}
+
+.rslt2 {
+display: flex;
+text-align: center;
+color: rgb(255, 255, 255);
+margin: 0 auto;
+margin-top: 10px;
+padding-left: 75px;
+padding-right: 75px;
+font-weight: bold;
+opacity: 75%;
+font-size: 13px;
+}
+
+.Summary {
+margin: 25px;
+}
+
+.containerRea {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 7vh;
+   background-color: rgb(255, 210, 210);
+   border-radius: 20px;
+}
+
+.childRea {
+    display: flex;
+ padding-left: 30px;
+gap: 10px;
+color: rgb(255, 75, 59);
+font-weight: bold;
+}
+.childRea2{
+    display: flex;
+    padding-right: 30px;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+}
+
+.containerMem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 7vh;
+background-color:rgb(255, 246, 230);
+border-radius: 20px;
+}
+
+.childMem {
+display: flex;
+padding-left: 30px;
+gap: 10px;
+color: #ffc02e;
+font-weight: bold;
+}
+
+.childMem2 {
+    display: flex;
+padding-right: 30px;
+color: #585858;
+font-weight: bold;
+}
+
+
+.containerVer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 7vh;
+background-color: rgb(180, 255, 180);
+border-radius: 20px;
+}
+
+.childVer {
+display: flex;
+padding-left: 30px;
+gap: 10px;
+color: rgb(0, 189, 101);
+font-weight: bold;
+}
+
+.childVer2 {
+display: flex;
+padding-right: 30px;
+font-weight: bold;
+color: rgb(58, 58, 58);
+}
+
+
+.containerVis {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 7vh;
+background-color: rgb(198, 209, 255);
+border-radius: 20px;
+}
+.childVis {
+display: flex;
+padding-left: 30px;
+gap: 10px;
+font-weight: bold;
+color: rgb(89, 89, 255);
+}
+
+.childVis2 {
+display: flex;
+padding-right: 30px;
+font-weight: bold;
+color: rgb(58, 58, 58);
+}
+
+
+.btn {
+display: block;
+margin-top: 50px;
+border-radius: 15px;
+background-color: rgb(27, 30, 67);
+max-width: 100%;
+height: 6vh;
+padding-left: 30px;
+padding-right: 30px;
+
+
+}
+
+button {
+color: rgb(234, 234, 234);
+font-size: 18px;
+font-weight: bold;
+border: none;
+}
+
+
+
+
+@media (min-width: 676px){
+    body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    }
+    
+    
+    .container {
+        background-color:  rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        width: 700px;
+        height: 520px;
+        border-radius: 25px;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 320px;
+    padding-bottom: 30px;
+   
+}
+
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 69, 255);
+    gap: 48px;
+    height: 520px;
+    width: 350px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 0px;
+}
+}
